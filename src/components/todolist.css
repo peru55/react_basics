@@ -1,0 +1,70 @@
+.to-do-list {
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+input[type="text"] {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    margin: 1rem;
+    width: 50%;
+    font-size: 1rem;
+}
+
+.addBtn, 
+.deleteBtn,
+.moveUpBtn,
+.moveDownBtn {
+    color: #fff;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+.addBtn {
+    background-color: #00b894;
+}
+
+.addBtn:hover {
+    background-color: #00cec9;
+}
+
+.deleteBtn {
+    background-color: #d63031;
+}
+
+.deleteBtn:hover {
+    background-color: #ff7675;
+}
+
+.moveUpBtn {
+    background-color: #0984e3;
+}
+
+.moveUpBtn:hover {
+    background-color: #74b9ff;
+}
+
+.moveDownBtn {
+    background-color: #6c5ce7;
+}
+
+.moveDownBtn:hover {
+    background-color: #a29bfe;
+}
+
+.todoText{
+    flex: 1;
+}

@@ -1,0 +1,12 @@
+.nav-container {
+    background-color: lightcoral;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}

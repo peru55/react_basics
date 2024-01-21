@@ -1,0 +1,23 @@
+.color-picker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+h1 {
+    margin: 50px 0;
+    font-size: 2.5rem;
+}
+
+.color-display {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    transition: 0.25s ease;
+}
